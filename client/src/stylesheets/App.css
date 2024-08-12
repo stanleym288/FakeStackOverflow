@@ -1,0 +1,193 @@
+/* Add your CSS here */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 150px auto;
+    grid-template-columns: 280px auto;
+    border: solid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-stack {
+    background-color: gray;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.search-bar {
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+    border: 1px solid black;
+    height: 21px
+}
+
+.left-side-bar {
+    grid-row-start: 2;
+    grid-row-end: 9;
+    border-right-style: dotted;
+    font-size: 20px;
+    text-align: center;
+}
+
+.right-side-box {
+    grid-row-start: 2;
+    grid-row-end: 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-header {
+    height: 25%;
+    display: flex;
+    border-bottom-style: dotted;
+}
+
+/* Blue, Ask Questions */
+.button1 {
+    background-color: #3090E2;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12;
+    padding: 8px 16px;
+    color: white;
+}
+
+/* white, Newest, Active, Unanswered */
+.button2 {
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    font-size: 12;
+    padding: 3px 6px;
+}
+
+.displayquestionbox {
+    display: flex;
+    height: auto;
+    border-bottom: dotted;
+}
+
+.displayquestionboxanswers {
+    display: flex;
+    height: auto;
+}
+
+.displaycommentbox {
+    display: flex;
+    height: auto;
+    border-bottom: solid;
+}
+
+#username {
+    height: 25px;
+    font-size: 12pt;
+    width: 500px;
+    margin: 20px 20px 5px 20px;
+}
+
+#questionTitle {
+    font-size: 12pt;
+    height: 20px;
+    width: 500px;
+    margin: 20px 20px 5px 20px;
+}
+
+#questionText {
+    height: 100px;
+    font-size: 12pt;
+    width: 500px;
+    margin: 20px 20px 5px 20px;
+}
+
+#tags {
+    height: 25px;
+    font-size: 12pt;
+    width: 500px;
+    margin: 20px 20px 5px 20px;
+}
+
+.button1post {
+    background-color: #3090E2;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px 16px;
+    color: white;
+}
+
+p.error {
+    color: red;
+    margin: 0px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.left-side-bar button.active {
+    background-color: lightgray;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+}
+
+.left-side-bar button {
+    margin-top: 50px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 30px;
+    text-align: center;
+    border: 1px dashed black;
+    overflow-wrap: break-word;
+}
+
+#num-tags {
+    font-weight: "bold";
+    font-size: "20";
+    font-family: "Arial";
+}
+
+#All-Tags {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    margin-left: -80px;
+    margin-top: -45px;
+}
+
+
+.hyperlinkButton {
+    background: none;
+    color: blue;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.answerheader {
+    height: 28%;
+    display: flex;
+    border-bottom-style: solid;
+}
+
+.button1answer {
+    background-color: #3090E2;
+    cursor: pointer;
+    font-size: 12;
+    padding: 8px 16px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
